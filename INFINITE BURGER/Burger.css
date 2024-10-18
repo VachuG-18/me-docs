@@ -1,0 +1,84 @@
+body{
+    height: 100%;
+    margin: 30px;
+    background: color #f2f2f2; 
+}
+.sesame-seed{
+    position: fixed;
+    background-color: #e757c1;
+    height: 10px;
+    width: 20px;
+    border-radius: 60%;
+    &.one{
+        transform: rotate(-10deg);
+        top: 60px;
+        left: 45%;
+    }
+    &.two{
+        transform: rotate(15deg);
+        top: 70px;
+        left: 50%;
+    }
+    &.three{
+        transform: rotate(10deg);
+        top: 60px;
+        left: 54%;
+    }
+}
+.burger{
+    position: relative;
+    margin:auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.burgertop{
+    height: 80px;
+    width: 280px;
+    top: 5%;
+    background-color: #f4a864;
+    left: 5%;
+    border-radius: 90% 90% 0 0;
+}
+
+.burgerbottom{
+    height:80px;
+    width:280px;
+    top:50%;
+    left:50%;
+    border-radius: 0 0 90% 90%;
+    background-color: #f4a864;
+}
+
+.patty{
+    position: absolute;
+    top: 60px;
+    left:0%;
+    width: 250px;
+    height:20px;
+    background-color: #683e26;
+    border-radius: 10px;
+}
+
+.cheese{
+    position:absolute;
+    top:50px;
+    left:0%;
+    width:250px;
+    height:10px;
+    background-color:#FFD700;
+    border-radius: 5px;
+}
+
+.lettuce{
+    position: absolute;
+    top:20px;
+    left: 0%;
+    width:250;
+    height:5px;
+    background-color: #57c02a;
+} 
